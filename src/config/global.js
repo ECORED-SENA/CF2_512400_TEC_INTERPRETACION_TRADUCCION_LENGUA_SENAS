@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Fundamentos de la lingüística y comunicación en la LSC y español',
+    descripcionCurso:
+      'Aquí se explican los aspectos generales que todo intérprete de lengua de señas colombiana debe tener en cuenta sobre la lingüística, su función, modelos, enfoques sociolingüísticos y psicolingüísticos, se aclaran términos de fonética, fonología, morfología, sintaxis, lexicografía y semántica de la lengua de señas y el español escrito. Finalmente, se enuncian algunos aspectos generales de la comunicación y las técnicas de expresión.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +37,37 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aspectos generales de la lingüística y comunicación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Niveles de estudio de la LSC (definiciones)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Desarrollo de habilidades comunicativas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Conceptos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Técnicas de comunicación en la expresión del discurso',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Métodos nemotécnicos, de atención y concentración',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -60,7 +75,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -95,34 +109,170 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Ayala, C, Yuste, C. (2005). <em>Programa para la estimulación de las habilidades de la inteligencia.</em> CEPE',
+      link: '',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Barreto, A. (2015). Fundarvid: una contextualización de sus neologismos en la lengua de señas colombiana. <em>Antropología.</em>',
+      link: '',
+    },
+    {
+      referencia: 'Burad, V. (2008). <em>Alteridad sorda.</em>',
+      link: 'https://culturasorda.org/alteridad-sorda',
+    },
+    {
+      referencia:
+        'Caamaño, C. (2018). <em>Claves para potenciar la atención/concentración.</em> Universidad de Chile.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (1996). Ley 324 de 1996. Por la cual se crean algunas normas a favor de la población sorda. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2005). Ley 982 de 2005. Por la cual se establecen normas tendientes a la equiparación de oportunidades para las personas sordas y sordociegas y se dictan otras disposiciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Giraldo, J. (2016). La neología: indicador de la vitalidad de una lengua y su cultura. <em>Revista Interamericana de Bibliotecología</em>, 39(1), 39-46.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hervás, L. (1795). <em>Escuela española de sordomudos, o arte para enseñarles a escribir y hablar el idioma español</em> (Vol. 2). Imprenta Real.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hymes, D. (1972). <em>Competencia comunicativa</em>. Editorial Pride and Holmes, 42.',
+      link: '',
+    },
+    {
+      referencia:
+        'Johnson, R., Liddell, S. (2016). Hacia una representación fonética de las señas: secuencialidad y contraste. <em>Forma y Función</em>, 29(2), 247-279.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lieury, A. (1985). <em>Los métodos mnemotécnicos ¿ciencia o charlatanería?</em> Herder.',
+      link: '',
+    },
+    {
+      referencia:
+        'Martínez, R. A. (2017). Semántica y morfosintaxis del adjetivo en la Lengua de Señas Argentina desde un enfoque cognitivo. <em>Lengua y Habla</em>, (21), 151-174.',
+      link: '',
+    },
+    {
+      referencia:
+        'Oviedo, A. (2007). <em>Pierre Desloges y sus “Observaciones…”</em> de 1779.',
+      link: 'https://culturasorda.org/alteridad-sorda',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Audismo',
+      significado:
+        'la discriminación negativa o arbitraria o la marginación sufrida por las personas sordas a lo largo de la historia hasta la actualidad (Humphries, 1970).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Bilingüismo',
+      significado:
+        'capacidad de desarrollar algún nivel de competencia (hablar, leer, entender, escribir) en una segunda lengua.',
+    },
+    {
+      termino: 'Fonética',
+      significado:
+        'estudio que se realiza a los sonidos físicos de una lengua desde una perspectiva acústica y fonológica; también el lugar y el modo de cómo se produce; además su clasificación, que se divide en tres principales ramas: fonética articulatoria, fonética acústica y fonética auditiva o perceptiva.',
+    },
+    {
+      termino: 'Lengua',
+      significado:
+        'sistema de signos lingüísticos, conformado en la interacción comunicativa y cuyo fin es la comunicación misma. Como sistema de signos, estos conforman un conjunto de oposiciones funcionales, que son constantes y que subyacen a la materialidad fónica.',
+    },
+    {
+      termino: 'Lengua de señas',
+      significado:
+        'lengua de signos es una lengua natural de expresión y configuración gesto-espacial y percepción visual, gracias a la cual, los sordos pueden establecer un canal de comunicación.',
+    },
+    {
+      termino: 'Lenguaje',
+      significado:
+        'sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales. ',
+    },
+    {
+      termino: 'Lingüística',
+      significado:
+        'disciplina científica que investiga el origen, la evolución y las estructuras fundamentales del lenguaje.',
+    },
+    {
+      termino: 'Metacognición',
+      significado:
+        'capacidad del ser humano para evaluar su propio proceso de aprendizaje con el propósito de hacerlo más consciente y eficiente.',
+    },
+    {
+      termino: 'Mnemotecnia',
+      significado:
+        'deriva del griego <em>mnéemee</em> (memoria), y <em>téchnee</em> (arte). Una regla mnemotécnica es un sistema sencillo utilizado para recordar una secuencia de datos, nombres, números, y en general para recordar listas de datos relacionando palabras, imágenes, etc.',
+    },
+    {
+      termino: 'Psicolingüística',
+      significado:
+        'rama de la psicología interesada en descubrir qué mecanismos cognitivos intervienen para producir y comprender el lenguaje, y cómo se adquiere o se pierde dicho lenguaje.',
+    },
+    {
+      termino: 'Signo lingüístico',
+      significado:
+        'construcción social que funciona dentro de un sistema lingüístico y que pone un elemento en lugar de otro.',
+    },
+    {
+      termino: 'Sociolingüística',
+      significado:
+        'estudio de las lenguas en su contexto social. Establece correlaciones entre el comportamiento lingüístico y el contexto sociosituacional.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: 'Aspectos generales de la lingüística y comunicación',
+      referencia: 'Burad, V. (2010). <em>El audismo</em>. Cultura sorda.',
+      tipo: 'Artículo',
+      link: 'https://cultura-sorda.org/el-audismo/ ',
+    },
+    {
+      tema: 'Aspectos generales de la lingüística y comunicación',
+      referencia:
+        'Escobar, J. (2019). <em>Alfabetización de modelos lingüísticos jóvenes y adultos par la comunidad sorda: la historia de la lengua de señas colombiana.</em> (Anteproyecto de trabajo de grado). Universidad Pedagógica Nacional.',
+      tipo: 'PDF',
+      link:
+        'http://repository.pedagogica.edu.co/bitstream/handle/20.500.12209/10768/TE-23503.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      tema: 'Niveles de estudio del español y de la LSC (Definiciones)',
+      referencia:
+        'Hervás, L. (1795). <em>Escuela española de sordomudos, o arte para enseñarles a escribir y hablar el idioma español</em> (Vol. 2). Imprenta Real. ',
+      tipo: 'Artículo',
+      link:
+        'https://www.cervantesvirtual.com/obra/escuela-espanola-de-sordomudos-o-arte-para-ensenarles-a-escribir-y-hablar-el-idioma-espanol-dividida-en-dos-tomos-tomo-i--0/',
+    },
+    {
+      tema: 'Niveles de estudio del español y de la LSC (Definiciones)',
+      referencia:
+        'Martínez, R. A. (2017). Semántica y morfosintaxis del adjetivo en la Lengua de Señas Argentina desde un enfoque cognitivo. <em>Lengua y Habla</em>, (21), 151-174. ',
+      tipo: 'Artículo',
+      link: 'https://ri.conicet.gov.ar/handle/11336/74928',
+    },
+    {
+      tema: 'Desarrollo de habilidades comunicativas',
+      referencia:
+        'Herrera, V., Puente, A., Alvarado, J., & Ardila, A. (2010). Códigos de lectura en sordos: la dactilología y otras estrategias visuales y kinestésicas. Revista Latinoamericana de Psicología, 39(2), 269-286',
+      tipo: 'Artículo ',
+      link: 'http://www.scielo.org.co/pdf/rlps/v39n2/v39n2a05.pdf',
     },
   ],
   creditos: [
