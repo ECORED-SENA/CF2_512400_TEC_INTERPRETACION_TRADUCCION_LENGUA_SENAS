@@ -61,7 +61,7 @@
             i.fas.fa-quote-left
             p La comunicación es un proceso social en el cual es necesario como mínimo que haya dos personas en situación de interrelación de ideas o mensajes, un emisor o locutor y un receptor. Para que la comunicación se produzca es necesario que exista entre los interlocutores motivación para transmitir y recibir. Es preciso que haya intervenido explícita o implícitamente, un acuerdo entre los interlocutores respecto de la utilización de un código que permita la organización de los mensajes transmitidos tomando un medio o canal de comunicación determinado.
             i.fas.fa-quote-right
-          .bloque-texto-d__autor 
+          .bloque-texto-d__autor
             .h5.mb-0 Ley 324 de 1996.
         p.mb-0 A partir de la Ley 324 de 1996 se deja entrever que la comunicación, parte de un proceso de cognición que involucra un conjunto de operaciones mentales o procesos como la transmisión, el análisis, la organización, la transformación, la elaboración, el archivo, la recuperación y el uso de información contenida en señales de entrada y salida de diferente naturaleza.
       .col-lg-5
@@ -299,19 +299,19 @@
     .row.justify-content-center.mb-5
       .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop' style="width:125px")
           .tarjeta.color-primario
             .p-4
               p.mb-0 Comunicar tiene como finalidad transmitir un mensaje específico, que será recibido por un interlocutor de quien se espera reaccione de determinada manera: reflexionando, riendo, respondiendo, acercándose. Aunque muchas veces la respuesta no es visible, porque puede expresarse en un pensamiento o un sentimiento o puede ser diferente de la que se esperaba.
       .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema3/img11b.svg' alt='AvatarTop' style="width:125px")
           .tarjeta.color-primario
             .p-4
               p.mb-0 Una comunicación asertiva tiene resultados adecuados, porque facilita y mejora las relaciones, ya que permite compartir sentimientos, pensamientos y creencias, lo que conlleva evidentemente a contactar con el otro. Para lograrlo, se necesita estar atento a las diversas manifestaciones del otro. Cuando esto no sucede, se habla y no se comunica y los resultados son superficiales. Se debe comunicar con palabras, tono de voz, el silencio, la mirada, la postura del cuerpo, las caricias, etc.
       .col-md-8.col-lg-4
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema3/img11c.svg' alt='AvatarTop' style="width:125px")
           .tarjeta.color-primario
             .p-4
               p.mb-0 La comunicación puede ser verbal (lo que se pronuncia) y corporal o no verbal (cómo se pronuncia). Por lo que muchas veces, de manera verbal se dice una cosa, pero de manera corporal se dice otra. Y con frecuencia quien suele enviar un doble mensaje no percibe que su conducta aumenta o provoca reacciones diversas. Y, obviamente, quien lo recibe capta los dos y no sabe a cuál hacerle caso, por lo que la interpretación del mensaje se dificulta.
@@ -497,33 +497,33 @@
       .col-auto.bg-c5
         .py-2.px-3
           h3.mb-0 Técnicas de expresión del discurso
-    .row.align-items-center.mb-4
-      .col-lg-6.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-xl-6.col-lg-9.col-md-12.mb-4.mb-lg-0.order-2.order-xl-0
         p En el discurso en LSC se han estudiado fenómenos específicos. Algunas de las categorías más nombradas son:
         ul.lista-ul--color.lista-ul--separador
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Espacios mentales sucedáneos (aplicados a las lenguas señadas).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Boyas (#[i bouys]).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Sectores simbólicos (#[i tokens]).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Verbos descriptivos (#[i depicting verbs]).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Concordancia verbal (#[i verb agreement]).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Cambios del cuerpo (#[i body shifting]).
-          li 
+          li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
             | Diálogo y la acción construida (DCAC, por sus siglas en inglés).
-      .col-lg-6
-        figure
+      .col-xl-6.col-lg-8.col-md-12
+        figure.p-4.p-xl-0
           img(src='@/assets/curso/tema3/img22.svg', style="width: 600px").m-auto
     p.mb-4 Gran parte de la dispersión conceptual en torno a los elementos discursivos de las lenguas señadas se debe a la compleja interacción mencionada anteriormente entre el gesto y los elementos fonológicos, a continuación, se podrán reconocer algunas técnicas de expresión del lenguaje de señas.
     .row.align-items-center
@@ -533,9 +533,9 @@
       .col-lg-6
         LineaTiempoD.color-secundario
           p(numero="1" titulo="<em>Depicting</em>") Es una técnica en la que se agrupan las principales categorías de elementos discursivos de las lenguas señadas a las estrechamente relacionadas con las tradicionales coherencia y cohesión.
-          p(numero="2" titulo="Depictions abstractos") Son aquellas representaciones visuales que simbolizan el espacio con información lingüística en formas particulares: como una línea imaginaria de tiempo horizontal, como un plano calendario (x, y) frente al señante o como sectores determinados (tokens). Los tokens son sectores del espacio frente al señante que codifican contenido lingüístico específico con miras a la cohesión textual.
-          p(numero="3" titulo="Depictions a escala") Incluyen una amplia cantidad de señas que representan visualmente entidades, incorporando gran cantidad de información sobre la forma de estas, los movimientos y la disposición topológica general de la ‘escena’ interpretada en el enunciado.
-          p(numero="4" titulo="Depictions a tamaño real") La LSC tiene la posibilidad de incorporar representaciones en el discurso utilizando el cuerpo: el rostro y la inclinación-rotación del torso (|cuerpo| dinámico), alguna locación específica del cuerpo como territorio (|cuerpo| estático), y el cuerpo como punto de observación panorámica (#[i vantage point]).
+          p(numero="2" titulo="<em>Depictions</em> abstractos") Son aquellas representaciones visuales que simbolizan el espacio con información lingüística en formas particulares: como una línea imaginaria de tiempo horizontal, como un plano calendario (x, y) frente al señante o como sectores determinados <em>(tokens)</em>. Los <em>tokens</em> son sectores del espacio frente al señante que codifican contenido lingüístico específico con miras a la cohesión textual.
+          p(numero="3" titulo="<em>Depictions</em> a escala") Incluyen una amplia cantidad de señas que representan visualmente entidades, incorporando gran cantidad de información sobre la forma de estas, los movimientos y la disposición topológica general de la ‘escena’ interpretada en el enunciado.
+          p(numero="4" titulo="<em>Depictions</em> a tamaño real") La LSC tiene la posibilidad de incorporar representaciones en el discurso utilizando el cuerpo: el rostro y la inclinación-rotación del torso (|cuerpo| dinámico), alguna locación específica del cuerpo como territorio (|cuerpo| estático), y el cuerpo como punto de observación panorámica (#[i vantage point]).
 
 </template>
 

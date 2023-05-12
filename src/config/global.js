@@ -99,7 +99,12 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar PDF',
+        download: 'downloads/512400_CF02_DU.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -119,10 +124,6 @@ export default {
       referencia:
         'Barreto, A. (2015). Fundarvid: una contextualización de sus neologismos en la lengua de señas colombiana. <em>Antropología.</em>',
       link: '',
-    },
-    {
-      referencia: 'Burad, V. (2008). <em>Alteridad sorda.</em>',
-      link: 'https://culturasorda.org/alteridad-sorda',
     },
     {
       referencia:
@@ -168,11 +169,6 @@ export default {
       referencia:
         'Martínez, R. A. (2017). Semántica y morfosintaxis del adjetivo en la Lengua de Señas Argentina desde un enfoque cognitivo. <em>Lengua y Habla</em>, (21), 151-174.',
       link: '',
-    },
-    {
-      referencia:
-        'Oviedo, A. (2007). <em>Pierre Desloges y sus “Observaciones…”</em> de 1779.',
-      link: 'https://culturasorda.org/alteridad-sorda',
     },
   ],
   glosario: [
@@ -326,6 +322,17 @@ export default {
           cargo: 'Diseñador Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander.',
+        },
+        {
+          nombre: 'Luz Mila Pacheco Fuentes',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sergio Arturo Medina Castillo',
+          cargo: 'Evaluador Instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus ',
