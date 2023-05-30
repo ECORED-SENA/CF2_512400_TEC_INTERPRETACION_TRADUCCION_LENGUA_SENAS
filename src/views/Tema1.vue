@@ -342,7 +342,7 @@ export default {
         icono: require('@/assets/curso/tema1/img6.png'),
       },
       {
-        titulo: '322',
+        titulo: '322 A.C',
         texto:
           'San Agustín de Hipona afirmó que los sordos no podían alcanzar la salvación divina, que nacían sordos por culpa de la ira de Dios y los pecados de sus padres.',
         icono: require('@/assets/curso/tema1/img7.png'),
