@@ -315,10 +315,7 @@
           .tarjeta.color-primario
             .p-4
               p.mb-0 La comunicación puede ser verbal (lo que se pronuncia) y corporal o no verbal (cómo se pronuncia). Por lo que muchas veces, de manera verbal se dice una cosa, pero de manera corporal se dice otra. Y con frecuencia quien suele enviar un doble mensaje no percibe que su conducta aumenta o provoca reacciones diversas. Y, obviamente, quien lo recibe capta los dos y no sabe a cuál hacerle caso, por lo que la interpretación del mensaje se dificulta.
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Habilidades y barreras en la comunicación asertiva
+    h4.t1 Habilidades y barreras en la comunicación asertiva
     p La comunicación asertiva como habilidad es una forma de expresión consciente, mediante la cual se manifiestan las ideas, deseos, opiniones, sentimientos o derechos de forma congruente, clara, directa, equilibrada, honesta y respetuosa, sin la intención de herir o perjudicar, y actuando desde una perspectiva de autoconfianza.
     p.mb-4 #[b.txt-c1 Conozca a continuación algunas de las principales habilidades que permiten la comunicación asertiva:]
     .row.align-items-center.mb-5
@@ -440,12 +437,7 @@
       .col-lg-6
         figure
           img(src='@/assets/curso/tema3/img11.png', style="width: 650px").m-auto
-    .row.align-items-center.mb-4
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema3/img16.svg', style="width: 20px").m-auto
-      .col
-        h4.mb-0 Categoría planes de recuerdo
+    h4.t1 Categoría planes de recuerdo
     p.mb-5 Se refiere a la creación de vínculos entre los elementos a recordar cuando existe gran cantidad de información y se clasifican en:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
       .row(titulo="Planes basados en la imagen").justify-content-center.align-items-center
@@ -473,10 +465,7 @@
           figure
             img(src='@/assets/curso/tema3/img20.svg', style="width: 250px").m-auto
     p.mb-5 En concreto, la clave de la memorización es la organización de la información utilizando estrategias mnemotécnicas de codificación, de índices, de planes de recuerdo, que permiten retener la información por un tiempo prolongado.
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Métodos de atención y concentración
+    h4.t1 Métodos de atención y concentración
     p.mb-4 El concepto metacognición hace referencia a la capacidad del ser humano para evaluar su propio proceso de aprendizaje con el propósito de hacerlo más consciente y eficiente, lo que hoy se resume con el lema de aprender a aprender. Ayala y Yuste (2005), consideran que actuar de forma metacognitiva, repercutirá en la capacidad para planificar, seleccionar estrategias y evaluar proceso de aprendizaje propio en diferentes contextos.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
@@ -493,10 +482,7 @@
                 .col
                   p.mb-0 Existen diferentes tipos de atención que van desde procesos internos hasta aquellos externos que suceden alrededor; otros tienen que ver con aquellos voluntarios o aquellos que se realizan en forma involuntaria, por ejemplo, como cuando se reacciona sin pensarlo frente a un ruido fuerte o una impresión visual no esperada.
         p.mb-0 El proceso de atención moviliza una gran cantidad de recursos cognitivos que llevan a un aprendizaje a partir de los objetivos y forma de aprender. Para estimular la atención y la concentración se debe activar inicialmente el estímulo, además de considerar todos los elementos físicos y también emocionales que pueden estar interviniendo en el momento específico. El proceso de atención moviliza una gran cantidad de recursos cognitivos que llevan a un aprendizaje a partir de los objetivos y forma de aprender.
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Técnicas de expresión del discurso
+    h4.t1 Técnicas de expresión del discurso
     .row.align-items-center.justify-content-center.mb-4
       .col-xl-6.col-lg-9.col-md-12.mb-4.mb-lg-0.order-2.order-xl-0
         p En el discurso en LSC se han estudiado fenómenos específicos. Algunas de las categorías más nombradas son:

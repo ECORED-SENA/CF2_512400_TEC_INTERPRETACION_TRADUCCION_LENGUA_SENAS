@@ -103,6 +103,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -126,6 +128,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -149,6 +153,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -172,6 +178,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -195,6 +203,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1144,6 +1154,7 @@
       <string id="shortcut">Atajo</string>
       <string id="shortcuthelp">Listar los atajos de teclado</string>
       <string id="keyboardshortcuts">Atajos de teclado</string>
+      <string id="background_audio_shortcut">Activar/Desactivar el audio de fondo</string>
       <string id="acctext_shortcut">Activar/Desactivar texto accesible</string>
       <string id="togglezoom">Alternar los modos de zoom</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
@@ -1175,6 +1186,7 @@
       <string id="finish">FINALIZAR</string>
       <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
+      <string id="background_audio">Audio de fondo</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
       <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
       <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
@@ -1282,6 +1294,17 @@
       <string id="shift_key">Mayúsculas</string>
       <string id="acc_closed_captions">Subtítulos cerrados. Presiona la barra de espacio para activar y desactivar los subtítulos.</string>
       <string id="acc_active">activo</string>
+      <string id="transcript_auto_scroll">Desplazamiento automático</string>
+      <string id="acc_modern_video_transcript">Abrir</string>
+      <string id="acc_window_resize">Ajustar tamaño de ventana</string>
+      <string id="acc_window_close">Cerrar</string>
+      <string id="acc_video_transcript_list">Transcripciones</string>
+      <string id="acc_window_move">Mover ventana</string>
+      <string id="acc_window_options">Opciones</string>
+      <string id="transcript_show_timestamp">Mostrar marcas de tiempo</string>
+      <string id="video_transcript_resume_autoscroll">Reanudar desplazamiento automático</string>
+      <string id="video_transcript_select_track">Seleccionar pista</string>
+      <string id="video_transcript_title">Transcripciones</string>
       <string id="acc_playback_speed">velocidad de reproducción</string>
       <string id="playback_speed_title">Velocidad de reproducción</string>
       <string id="playback_speed_normal">Normal</string>
@@ -1305,7 +1328,7 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6NBSsPqDrnC" displaytext="La                                              es el estudio de los sonidos físicos.&#xD;&#xA;&#xA;La                                             es el estudio de los fonemas.&#xD;&#xA;&#xA;La                                             es el estudio de los morfemas.&#xD;&#xA;&#xA;La                                             es el estudio de la combinación y la relación de las palabras.&#xD;&#xA;&#xA;La                                             es la ciencia que estudia la creación de los diccionarios.&#xD;&#xA;&#xA;La                                             es el estudio de los significados de las expresiones lingüísticas.&#xD;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6NBSsPqDrnC" displaytext="La                                               es el estudio de los sonidos físicos.&#xA;&#xA;La                                               es el estudio de los fonemas.&#xD;&#xA;La                                               es el estudio de los morfemas.&#xD;&#xA;La                                               es el estudio de la combinación y la relación de las palabras.&#xD;&#xA;La                                               es la ciencia que estudia la creación de los diccionarios.&#xD;&#xA;La                                               es el estudio de los significados de las expresiones lingüísticas.&#xD;&#xA;" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

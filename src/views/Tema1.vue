@@ -6,63 +6,69 @@
       .titulo-principal__numero
         span 1
       h1 Aspectos generales de la lingüística y comunicación
-    .row.bg-c2.mb-4
-      .col-12
-        .px-5
-          .row.align-items-center.mb-4
-            .col-lg-auto.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/tema1/img2.svg', style="width: 90px").m-auto
-            .col
-              p.mb-0 El ser humano, desde el momento mismo de su nacimiento, busca todas las estrategias necesarias para comunicarse, el lenguaje forma parte del desarrollo natural de hombre y contiene características y propiedades que le permiten ser diferentes a los demás seres vivos; la forma de comunicación de las comunidades sordas abarcan aspectos lingüísticos y comunicativos que son importantes reconocer y diferenciar, pero que estrictamente están ligados con todas las teóricas lingüísticas y sociolingüísticas que se han dado a través de tiempo.
-          .row.align-items-center.mb-4
-            .col-lg-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/tema1/img1.png', style="width: 350px").m-auto
-            .col-lg-8
-              p De acuerdo con Burad (2010), el proceso de interpretación en Lengua de Señas Colombiana (por sus siglas LSC), surgió para cubrir una necesidad de carácter lingüístico y cultural en el contexto global, es decir, para posibilitar la comunicación entre personas sordas usuarias de la lengua de señas y personas oyentes que no conocen dicha lengua.
-              p #[b.txt-c1 Pero, ¿a qué hace referencia el término de lingüística?:]
-              .cajon.color-primario.p-4
-                h3 Lingüística
-                p.mb-0 Es la disciplina científica que se encarga de investigar el comienzo, evolución y disposición del lenguaje que se utiliza para comprender o transmitir un mensaje. El objetivo de la lingüística implica la formulación de una teoría general de las lenguas naturales y del sistema cognitivo que las hace posibles.
-          p El estudio lingüístico se puede dividir en un conjunto de campos o niveles, dependiendo de qué aspecto específico del lenguaje resulte del interés particular, entre estos campos se encuentran:
-          .row.justify-content-center.mb-4
-            .col-md-8.col-lg-4.mb-4.mb-lg-0
-              .row
-                .col-12
-                  .p-4.bg-c3
-                    .row.align-items-center
-                      .col-auto
-                        figure
-                          img(src='@/assets/curso/tema1/img3.svg', style="width: 90px").m-auto
-                      .col
-                        p.mb-0 #[b La fonética y la fonología.]
-            .col-md-8.col-lg-4.mb-4.mb-lg-0
-              .row
-                .col-12
-                  .p-4.bg-c3
-                    .row.align-items-center
-                      .col-auto
-                        figure
-                          img(src='@/assets/curso/tema1/img4.svg', style="width: 90px").m-auto
-                      .col
-                        p.mb-0 #[b La morfosintaxis.]
-            .col-md-8.col-lg-4
-              .row
-                .col-12
-                  .p-4.bg-c3
-                    .row.align-items-center
-                      .col-auto
-                        figure
-                          img(src='@/assets/curso/tema1/img5.svg', style="width: 90px").m-auto
-                      .col
-                        p.mb-0 #[b La semántica y la pragmática.]
-          .row.align-items-center
-            .col-lg-8.mb-4.mb-lg-0
-              p.mb-0 Como ocurre con las lenguas orales, en cada país, las personas sordas tienen una lengua de señas con su propia historia y evolución; una estructura gramatical y elementos sociolingüísticos con sus reglas comunicativas, pero con variedades lingüísticas, como pasa con las lenguas orales. La llamada lingüística histórica (o lingüística diacrónica, comparativa o comparada) es la disciplina de la lingüística que se encarga de estudiar el cambio de las lenguas a través del tiempo y el proceso del cambio lingüístico, ocupando un lugar destacado en el estudio diacrónico de las lenguas.
-            .col-lg-4
-              figure
-                img(src='@/assets/curso/tema1/img6.svg', style="width: 550px").m-auto
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-8
+        .row.align-items-center.mb-4
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema1/img2.svg', style="width: 90px").m-auto
+          .col
+            p.mb-0 El ser humano, desde el momento mismo de su nacimiento, busca todas las estrategias necesarias para comunicarse, el lenguaje forma parte del desarrollo natural de hombre y contiene características y propiedades que le permiten ser diferentes a los demás seres vivos; la forma de comunicación de las comunidades sordas abarcan aspectos lingüísticos y comunicativos que son importantes reconocer y diferenciar, pero que estrictamente están ligados con todas las teóricas lingüísticas y sociolingüísticas que se han dado a través de tiempo.
+        .cajon.color-primario.p-4
+          p.mb-0 De acuerdo con Burad (2010), el proceso de interpretación en Lengua de Señas Colombiana (por sus siglas LSC), surgió para cubrir una necesidad de carácter lingüístico y cultural en el contexto global, es decir, para posibilitar la comunicación entre personas sordas usuarias de la lengua de señas y personas oyentes que no conocen dicha lengua.
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img1.png', style="width: 350px").m-auto
+
+
+    Separador 
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.1 Lingüística
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        p.mb-0 Es la disciplina científica que se encarga de investigar el comienzo, evolución y disposición del lenguaje que se utiliza para comprender o transmitir un mensaje. El objetivo de la lingüística implica la formulación de una teoría general de las lenguas naturales y del sistema cognitivo que las hace posibles.
+    p El estudio lingüístico se puede dividir en un conjunto de campos o niveles, dependiendo de qué aspecto específico del lenguaje resulte del interés particular, entre estos campos se encuentran:
+    .row.justify-content-center.mb-4
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
+        .row
+          .col-12
+            .p-4.bg-c3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/tema1/img3.svg', style="width: 90px").m-auto
+                .col
+                  p.mb-0 #[b La fonética y la fonología.]
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
+        .row
+          .col-12
+            .p-4.bg-c3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/tema1/img4.svg', style="width: 90px").m-auto
+                .col
+                  p.mb-0 #[b La morfosintaxis.]
+      .col-md-8.col-lg-4
+        .row
+          .col-12
+            .p-4.bg-c3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/tema1/img5.svg', style="width: 90px").m-auto
+                .col
+                  p.mb-0 #[b La semántica y la pragmática.]
+    .row.align-items-center
+      .col-lg-8.mb-4.mb-lg-0
+        p.mb-0 Como ocurre con las lenguas orales, en cada país, las personas sordas tienen una lengua de señas con su propia historia y evolución; una estructura gramatical y elementos sociolingüísticos con sus reglas comunicativas, pero con variedades lingüísticas, como pasa con las lenguas orales. La llamada lingüística histórica (o lingüística diacrónica, comparativa o comparada) es la disciplina de la lingüística que se encarga de estudiar el cambio de las lenguas a través del tiempo y el proceso del cambio lingüístico, ocupando un lugar destacado en el estudio diacrónico de las lenguas.
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema1/img6.svg', style="width: 550px").m-auto
     p.mb-5 A continuación, se realizará una breve aproximación desde la historia, que ha incluido el estudio de las lenguas de señas utilizadas y estudiadas por comunidades sordas y oyentes en el mundo.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -71,10 +77,9 @@
             .p-4
               h3 Línea de tiempo
               LineaTiempoB.color-secundario(:datos="datosLineaTiempoB")
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Funciones de la lingüística
+    Separador 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.2 Funciones de la lingüística
     p La lingüística está a la orden del día de todas las personas que tienen un sistema de comunicación. Un simple saludo, la lectura de un libro o de la pantalla del celular, un recuerdo, una canción, palabras de la persona amada o el buen consejo de un amigo; todo, absolutamente todo lo que nos rodea día a día tiene palabras, gestos o señas.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
@@ -84,10 +89,9 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img21.png', style="width: 550px").m-auto
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Modelos de la lingüística
+    Separador 
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.3 Modelos de la lingüística
     p.mb-5 De nuevo la evolución histórica juega un papel importante en la lingüística y en la mirada de los expertos que han basado sus teorías en diferentes modelos para construir sus recursos lingüísticos, dichos modelos son:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
@@ -126,10 +130,9 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/tema1/img26.png', style="width: 650px").m-auto
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Sociolingüística y enfoques
+    Separador 
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.4 Sociolingüística y enfoques
     p.mb-4 Desde el primer uso del término sociolingüística en 1952, sus seguidores han estudiado las lenguas en su contexto social y establecen correlaciones entre el comportamiento lingüístico y el contexto sociosituacional. Aunque aquí se privilegia la perspectiva social, también se determinan las variantes lingüísticas que caracterizan los distintos grupos sociales. Este rasgo es justamente lo que distingue la sociolingüística de la lingüística.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
@@ -146,10 +149,9 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img27.png', style="width: 450px").m-auto
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Psicolingüística y modelos
+    Separador 
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.5 Psicolingüística y modelos
     p.mb-4 La psicolingüística nace gracias a los estudios del lingüista francés Gustave Guillaume (1909) y puede definirse de la siguiente manera:
     .row.align-items-center.mb-4
       .col-lg-4.mb-4.mb-lg-0
@@ -209,10 +211,9 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/img16.svg', style="width: 250px").m-auto
-    .row.mb-4
-      .col-auto.bg-c5
-        .py-2.px-3
-          h3.mb-0 Psicolingüística aplicada a la LSC y al español
+
+
+    h4.t1 Psicolingüística aplicada a la LSC y al español
     p A principios del siglo XX, el lingüista francés Gustave Guillaume, realizó algunos estudios en su teoría del psicosistema, donde vinculó elementos lingüísticos y psicológicos, por lo que algunos llamaron a este estudio el #[b.txt-c1 guillaumismo], hoy conocido por su equivalente como la #[b.txt-c1 psicolingüística]. Esta disciplina estudia cualquier proceso que tenga que ver con la adquisición y procesamiento cognitivo de la información lingüística, es decir, la comunicación del ser humano a través del lenguaje, sea oral, escrito, gestual, corporal o manual.
     .row.bg-c7.mb-4
       .col-12
