@@ -39,6 +39,33 @@ export default {
         numero: '1',
         titulo: 'Aspectos generales de la lingüística y comunicación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Lingüística',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Funciones de la lingüística',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Modelos de la lingüística',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Sociolingüística y enfoques',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Psicolingüística y modelos',
+            hash: 't_1_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
