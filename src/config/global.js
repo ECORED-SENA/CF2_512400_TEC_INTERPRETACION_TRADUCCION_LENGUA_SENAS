@@ -268,12 +268,6 @@ export default {
   complementario: [
     {
       tema: 'Aspectos generales de la lingüística y comunicación',
-      referencia: 'Burad, V. (2010). <em>El audismo</em>. Cultura sorda.',
-      tipo: 'Artículo',
-      link: 'https://cultura-sorda.org/el-audismo/ ',
-    },
-    {
-      tema: 'Aspectos generales de la lingüística y comunicación',
       referencia:
         'Escobar, J. (2019). <em>Alfabetización de modelos lingüísticos jóvenes y adultos par la comunidad sorda: la historia de la lengua de señas colombiana.</em> (Anteproyecto de trabajo de grado). Universidad Pedagógica Nacional.',
       tipo: 'PDF',
