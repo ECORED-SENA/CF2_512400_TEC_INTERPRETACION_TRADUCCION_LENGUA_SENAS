@@ -65,6 +65,11 @@ export default {
             titulo: 'Psicolingüística y modelos',
             hash: 't_1_5',
           },
+          {
+            numero: '1.6',
+            titulo: 'Psicolingüística aplicada a la LSC y al español',
+            hash: 't_1_6',
+          },
         ],
       },
       {

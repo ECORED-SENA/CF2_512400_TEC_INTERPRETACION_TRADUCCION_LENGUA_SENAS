@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Aspectos generales de la lingüística y comunicación
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .row.align-items-center.mb-4
           .col-lg-auto.mb-4.mb-lg-0
@@ -21,7 +21,7 @@
           img(src='@/assets/curso/tema1/img1.png', style="width: 350px").m-auto
 
 
-    Separador 
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Lingüística
 
@@ -77,7 +77,7 @@
             .p-4
               h3 Línea de tiempo
               LineaTiempoB.color-secundario(:datos="datosLineaTiempoB")
-    Separador 
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2 Funciones de la lingüística
     p La lingüística está a la orden del día de todas las personas que tienen un sistema de comunicación. Un simple saludo, la lectura de un libro o de la pantalla del celular, un recuerdo, una canción, palabras de la persona amada o el buen consejo de un amigo; todo, absolutamente todo lo que nos rodea día a día tiene palabras, gestos o señas.
@@ -89,7 +89,7 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img21.png', style="width: 550px").m-auto
-    Separador 
+    Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3 Modelos de la lingüística
     p.mb-5 De nuevo la evolución histórica juega un papel importante en la lingüística y en la mirada de los expertos que han basado sus teorías en diferentes modelos para construir sus recursos lingüísticos, dichos modelos son:
@@ -130,7 +130,7 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/tema1/img26.png', style="width: 650px").m-auto
-    Separador 
+    Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4 Sociolingüística y enfoques
     p.mb-4 Desde el primer uso del término sociolingüística en 1952, sus seguidores han estudiado las lenguas en su contexto social y establecen correlaciones entre el comportamiento lingüístico y el contexto sociosituacional. Aunque aquí se privilegia la perspectiva social, también se determinan las variantes lingüísticas que caracterizan los distintos grupos sociales. Este rasgo es justamente lo que distingue la sociolingüística de la lingüística.
@@ -149,20 +149,19 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img27.png', style="width: 450px").m-auto
-    Separador 
+    Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.5 Psicolingüística y modelos
-    p.mb-4 La psicolingüística nace gracias a los estudios del lingüista francés Gustave Guillaume (1909) y puede definirse de la siguiente manera:
+    p.mb-4 La #[strong psicolingüística] nace gracias a los estudios del lingüista francés Gustave Guillaume (1909) y puede definirse de la siguiente manera:
     .row.align-items-center.mb-4
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img9.svg', style="width: 450px").m-auto
       .col-lg-8
-        .row.mb-4.mx-0
-          .col-12.bg-c6
-            .p-4
-              p #[b Psicolingüística]
-              p.mb-0 Rama de la psicología interesada en descubrir qué mecanismos cognitivos intervienen para producir y comprender el lenguaje, y cómo se adquiere o se pierde dicho lenguaje. Esta disciplina contrasta datos basados en la observación de la conducta real de los hablantes en situaciones diversas.
+        .bloque-texto-c.color-primario.py-4.px-5.mb-4
+          i.fas.fa-quote-right
+          p.mb-2 Rama de la psicología interesada en descubrir qué mecanismos cognitivos intervienen para producir y comprender el lenguaje, y cómo se adquiere o se pierde dicho lenguaje. Esta disciplina contrasta datos basados en la observación de la conducta real de los hablantes en situaciones diversas.
+
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Es importante tener en cuenta que la lingüística estudia el lenguaje analizado como un elemento sistemático, mientras que la psicolingüística estudia cómo se utiliza el lenguaje desde actividades cognitivas.
         p.mb-0 Aunque existen tantos modelos como teorías lingüísticas que se han dado a través de las ideas creadas por los expertos en el tiempo, a continuación, se pretende ofrecer una panorámica de algunos de los fundamentos psicolingüísticos que han animado la metodología para su enseñanza.
@@ -213,7 +212,9 @@
             img(src='@/assets/curso/tema1/img16.svg', style="width: 250px").m-auto
 
 
-    h4.t1 Psicolingüística aplicada a la LSC y al español
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.6 Psicolingüística aplicada a la LSC y al español
+
     p A principios del siglo XX, el lingüista francés Gustave Guillaume, realizó algunos estudios en su teoría del psicosistema, donde vinculó elementos lingüísticos y psicológicos, por lo que algunos llamaron a este estudio el #[b.txt-c1 guillaumismo], hoy conocido por su equivalente como la #[b.txt-c1 psicolingüística]. Esta disciplina estudia cualquier proceso que tenga que ver con la adquisición y procesamiento cognitivo de la información lingüística, es decir, la comunicación del ser humano a través del lenguaje, sea oral, escrito, gestual, corporal o manual.
     .row.bg-c7.mb-4
       .col-12
