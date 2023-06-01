@@ -304,14 +304,14 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Línea de Producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -321,34 +321,34 @@ export default {
         {
           nombre: 'Jhacesiz Mary Hincapié Atehortúa',
           cargo: 'Instructora',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Manuel Alejandro Garzón',
           cargo: 'Instructor',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'German Albeiro Saldarriga ',
-          cargo: 'Instructora',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          cargo: 'Instructor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Adriana María Bustamante',
           cargo: 'Profesional Diseño Curricular',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nidian Yarume Ortiz Buitrago',
           cargo: 'Experta temática',
           centro:
-            'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital.',
+            'Centro de Formación en Talento Humano y Salud - Regional Distrito Capita.',
         },
         {
           nombre: 'Jeimy Lorena Romero Perilla',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander.',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Luz Mila Pacheco Fuentes',
@@ -378,7 +378,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
