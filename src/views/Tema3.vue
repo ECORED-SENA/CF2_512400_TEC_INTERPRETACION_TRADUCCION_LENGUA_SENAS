@@ -489,25 +489,25 @@
         ul.lista-ul--color.lista-ul--separador
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Espacios mentales sucedáneos (aplicados a las lenguas señadas).
+            span Espacios mentales sucedáneos (aplicados a las lenguas señadas).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Boyas (#[i bouys]).
+            span Boyas (#[i bouys]).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Sectores simbólicos (#[i tokens]).
+            span Sectores simbólicos (#[i tokens]).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Verbos descriptivos (#[i depicting verbs]).
+            span Verbos descriptivos (#[i depicting verbs]).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Concordancia verbal (#[i verb agreement]).
+            span Concordancia verbal (#[i verb agreement]).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Cambios del cuerpo (#[i body shifting]).
+            span Cambios del cuerpo (#[i body shifting]).
           li
             i.fas.fa-hand-point-up(style="color: #ED9AA9")
-            | Diálogo y la acción construida (DCAC, por sus siglas en inglés).
+            span Diálogo y la acción construida (DCAC, por sus siglas en inglés).
       .col-xl-6.col-lg-8.col-md-12
         figure.p-4.p-xl-0
           img(src='@/assets/curso/tema3/img22.svg', style="width: 600px").m-auto
